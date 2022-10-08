@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'BoldItalic';
+    src: url(./Fonts/Roboto/Roboto-BoldItalic.ttf);
+}
+@font-face {
+    font-family: ThinItalic;
+    src: url(./Fonts/Roboto/Roboto-ThinItalic.ttf);
+}
+@font-face {
+    font-family: LightItalic;
+    src: url(./Fonts/Roboto/Roboto-LightItalic.ttf);
+}
+h5{
+    font-family: 'ThinItalic', Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer{
+    font-family: 'BoldItalic', sans-serif;
+}
+.container{
+    display: grid;
+    background-color: rgb(6, 6, 39);
+    height: 12cm;
+    grid-template-areas:
+     "a b"
+     "c d";
+   margin: 100px;
+}
+.cell1{
+    padding-top: 5px;
+    grid-area: a;
+    width: 50%;
+    margin-left: 200px;
+    text-align: left;
+}
+.cell2{
+    padding-top: 20px;
+    grid-area: b;
+    margin-right: 200px;
+    text-align: right;
+}
+.cell3{
+    grid-area: c;
+    margin-left: 200px;
+    text-align: left;
+}
+.cell4{
+    grid-area: d;
+    margin-right: 200px;
+    text-align: right;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: white;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.box{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
+.descriptions{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.LastFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col{
+margin: 20px;
+}
+.move{
+    display: flex;
+    text-align: left;
+}
+.left{
+    width: 50%;
+    height: 100px;
+    padding-left: 100px;
+}
+.imgOne{
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+}
+.quote{
+    font-family: 'LightItalic', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
